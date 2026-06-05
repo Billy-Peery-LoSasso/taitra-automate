@@ -9,6 +9,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/pot7ofj.css">
 <script src="https://js-na2.hsforms.net/forms/embed/242856037.js" defer></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C14NT1LJ6J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-C14NT1LJ6J');
+</script>
 
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}h1,h2,h3,.section-title,.b-title,.nav-wordmark,.hero-tagline{font-family:"mic-32-new-web",Arial,"Noto Sans TC",sans-serif}
@@ -729,6 +737,36 @@ document.querySelectorAll("[data-count]").forEach(el=>co.observe(el));
   });
   document.addEventListener("keydown", function(e){
     if(e.key==="Escape" && modal.classList.contains("open")) close();
+  });
+})();
+/* GA4 event tracking */
+(function(){
+  function ga(name, params){ if(typeof gtag==="function") gtag("event", name, params||{}); }
+  // CTA clicks — hero, nav, showcase
+  document.querySelectorAll(".hero-actions .btn-primary").forEach(function(el){
+    el.addEventListener("click", function(){ ga("cta_click", {cta_name:"schedule_pavilion_visit", cta_location:"hero"}); });
+  });
+  document.querySelectorAll(".nav-cta").forEach(function(el){
+    el.addEventListener("click", function(){ ga("cta_click", {cta_name:"schedule_pavilion_visit", cta_location:"nav"}); });
+  });
+  document.querySelectorAll(".showcase-actions .btn-primary").forEach(function(el){
+    el.addEventListener("click", function(){ ga("cta_click", {cta_name:"reserve_your_seat", cta_location:"showcase"}); });
+  });
+  // Exhibitor logo clicks
+  document.querySelectorAll(".ex-grid > a").forEach(function(el){
+    el.addEventListener("click", function(){
+      var img = el.querySelector("img");
+      var name = img ? (img.getAttribute("alt")||"") : "";
+      var url = el.getAttribute("href") || "";
+      ga("exhibitor_click", {exhibitor_name:name, exhibitor_url:url});
+    });
+  });
+  // HubSpot form submission (postMessage from form embed)
+  window.addEventListener("message", function(event){
+    if(!event.data) return;
+    if(event.data.type==="hsFormCallback" && event.data.eventName==="onFormSubmitted"){
+      ga("generate_lead", {form_id:event.data.id||"", source:"hubspot"});
+    }
   });
 })();
 </script>
