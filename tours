@@ -158,7 +158,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="robotics" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 1</div>
+      <div class="section-eyebrow">Pathway 1</div>
       <h2 class="section-title">Robotics &amp; Flexible Automation</h2>
       <p class="section-desc">Explore how Taiwan Excellence companies support flexible automation through cobots, robot control, precision motion, tool changing, and AMR deployment.</p>
     </div>
@@ -176,7 +176,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
         <div class="company-desc">See robotic joint and motion technologies that help enable precise, coordinated robot movement.</div>
       </div>
       <div class="company-card">
-        <div class="company-name">Toyo FA&amp;Robot</div>
+        <div class="company-name">Toyo Robot</div>
         <div class="company-desc">Explore linear motion technologies that support accurate, repeatable movement in automation systems.</div>
       </div>
       <div class="company-card">
@@ -200,7 +200,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="ai" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 2</div>
+      <div class="section-eyebrow">Pathway 2</div>
       <h2 class="section-title">AI, Edge Computing &amp;<br>Industrial Intelligence</h2>
       <p class="section-desc">See the computing and AI infrastructure that helps automation systems process data, run vision workloads, and make decisions closer to the machine.</p>
     </div>
@@ -242,7 +242,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="motion" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 3</div>
+      <div class="section-eyebrow">Pathway 3</div>
       <h2 class="section-title">Precision Motion &amp;<br>Machine Automation</h2>
       <p class="section-desc">Find the motion technologies and machine automation components that help systems move faster, smoother, more accurately, and with greater flexibility.</p>
     </div>
@@ -288,7 +288,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="rugged" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 4</div>
+      <div class="section-eyebrow">Pathway 4</div>
       <h2 class="section-title">Rugged Industrial<br>Computing</h2>
       <p class="section-desc">Industrial computing for demanding environments including industrial computing platforms built to withstand water, dust, vibration, temperature, washdown conditions, and other real-world factory challenges.</p>
     </div>
@@ -326,7 +326,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="connected" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 5</div>
+      <div class="section-eyebrow">Pathway 5</div>
       <h2 class="section-title">Connected Factory<br>Infrastructure</h2>
       <p class="section-desc">See how Taiwan technologies support connected factories through industrial networks, control systems, edge storage, secure data, mobile devices, and IIoT platforms.</p>
     </div>
@@ -368,7 +368,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="integrated" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 6</div>
+      <div class="section-eyebrow">Pathway 6</div>
       <h2 class="section-title">Integrated Automation</h2>
       <p class="section-desc">Faster integration for OEMs and system integrators. This path highlights Taiwan technologies that can help reduce engineering effort, simplify deployment, and connect automation systems faster.</p>
     </div>
@@ -410,7 +410,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
 <section id="modernization" class="section">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="section-eyebrow">Tour 7</div>
+      <div class="section-eyebrow">Pathway 7</div>
       <h2 class="section-title">Factory Modernization</h2>
       <p class="section-desc">Modernize existing assets without starting over. Explore technologies that help manufacturers add intelligence, connectivity, and visibility to existing equipment without replacing entire production lines.</p>
     </div>
