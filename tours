@@ -136,7 +136,8 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
   <div class="hero-inner">
     <div class="hero-content">
       <div class="hero-eyebrow">Self-Guided Tours</div>
-      <h1>Navigate Taiwan Excellence<br><em>your way.</em></h1>
+      <h1>Taiwan Excellence Pavillion 
+<br><em>Self-Guided Tours</em></h1>
       <p class="hero-sub">Explore 23 Taiwan companies across 7 focused pathways. Each route is designed around your automation priorities — from robotics and edge AI to factory modernization and integration speed.</p>
       <div class="tour-buttons">
         <button class="tour-btn" onclick="document.getElementById('robotics').scrollIntoView({behavior:'smooth'})">Robotics</button>
