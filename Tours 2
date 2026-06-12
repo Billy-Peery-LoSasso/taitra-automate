@@ -248,7 +248,7 @@ footer{background:var(--dark-mid);border-top:1px solid var(--border-subtle);padd
     </div>
     <div class="company-grid reveal">
       <div class="company-card">
-        <div class="company-name">Toyo FA&amp;Robot</div>
+        <div class="company-name">Toyo Robot</div>
         <div class="company-desc">See linear motion systems that help automation equipment move with greater speed, accuracy, and repeatability.</div>
       </div>
       <div class="company-card">
